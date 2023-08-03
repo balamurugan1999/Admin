@@ -1,0 +1,14 @@
+.pagination{
+    color: brown;
+    font-size: 3vh;
+    margin-left: 47vw;
+    word-spacing: 10vw;
+    /* //display:inline-block */
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.active{
+    text-decoration: underline;
+}
+

@@ -1,0 +1,8 @@
+create database admin;
+use admin;
+create table admincredentials ( username varchar(20) not null primary key, password varchar(20) not null);
+select * from admincredentials where username='bala1999' and password=binary 'bala@1999'; 
+insert into admincredentials values ('bala1999','Bala@1999');
+create table userdetails ( userid int not null primary key, username varchar(20) not null, city varchar(20) not null, comments varchar(50));
+select * from userdetails;
+insert into userdetails values(1,'Bala','Chennai','Nice and sweet');
